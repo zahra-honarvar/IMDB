@@ -6,8 +6,8 @@ import pandas as pd
 
 url_object = URL.create(
     "mysql+mysqlconnector",
-    username="zh",
-    password="1234",
+    username="username",
+    password="pass",
     host="localhost"
 )
 engine = create_engine(url_object)
